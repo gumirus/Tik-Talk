@@ -2,6 +2,7 @@
   "name": "tik-talk",
   "version": "0.0.0",
   "scripts": {
+    "deploy": "ng build --configuration production && npx angular-cli-ghpages --dir=dist/tik-talk",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
