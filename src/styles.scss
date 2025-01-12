@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import "fonts";
+
+:root {
+  --dark-color: #000000;
+  --light-color: #ffffff;
+  --violet-color: #9B59B6;
+}
+
+body {
+  background: var(--dark-color);
+  color: var(--light-color);
+}
+
+.skill-tag {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid var(--light-color);
+  display: inline;
+  font-size: var(--font-size);
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background: var(--violet-color);
+  color: var(--dark-color);
+  font-size: var(--font-size);
+}
